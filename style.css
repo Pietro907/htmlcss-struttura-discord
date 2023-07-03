@@ -132,12 +132,12 @@ section {
  .row_aside {
     background-color: rgba(175, 174, 174, 0.892);
     height: 2rem;
-    border: 1px dashed black;
 }
  .col_as {
     background-color: rgba(255, 166, 0, 0.836);
     width: calc(100%/12*2);
     height: 1rem;
+    border: 1px dashed black;
     margin: auto 0;
  }
  /* end region */
