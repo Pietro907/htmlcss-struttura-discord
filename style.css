@@ -124,6 +124,13 @@ section {
     width: calc(100%/12*6);
  }
 
+ .row_aside {
+    background-color: rgba(175, 174, 174, 0.892);
+    width: calc(100%/12*2);
+    height: 100px;
+    border: 1px solid black;
+}
+
  /* end region */
 
 
@@ -134,5 +141,6 @@ section {
 
 .flexbox_bet {
     display: flex;
+    justify-content: space-between;
 }
  /* end */
