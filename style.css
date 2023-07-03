@@ -4,11 +4,14 @@
     box-sizing: border-box;
 }
 
-header {
-    background-color: bisque;
-    width: 80%;
-    height: 100px;
+body {
     margin: auto;
+}
+
+/* region header */
+header {
+        width: 80%;
+        margin: auto;
 }
 
 .container_header {
@@ -17,37 +20,54 @@ header {
     height: 50px;
 }
 
-.row {
-    background-color: rgba(164, 163, 163, 0.8);
-    width: 80%;
-    height: 100%;
-}
-.col {
+.col_h {
     background-color: red;
-    width: calc(100%/3);
-    height: 80%;
-    margin: auto;
+    height: 20px;
+    width: 100%;
+    margin: 1rem 0;
 }
 
-.container {
-    background-color: rgba(128, 128, 128, 0.642);
+/* end region*/
+
+/* region hero */
+.hero {
+    background-color: rgba(88, 88, 226, 0.523);
+    padding: 1rem 0 3rem;
+
+}
+
+.image_hero {
+    background-color: rgba(164, 163, 163, 0.8);
     width: 50%;
-    height: 100px;
+    height: 00px;
+    margin: auto;
+    
 }
 
+/* end region */
 
-
-
-
-
-
-
-
-
-
-.debug {
-    margin: 1rem auto;
+/* region main s*/
+.container {
+    background-color: rgba(255, 166, 0, 0.381);
+    width: 50%;
+    height: 200px;
+    margin: 2rem auto;
+    padding: 2rem 0;
 }
+ .row_sect {
+    background-color: rgba(128, 128, 128, 0.642);
+    height: 100%;
+ }
+
+
+
+
+
+
+
+
+
+
 
 .flexbox {
     display: flex;
