@@ -20,14 +20,22 @@ header {
     height: 50px;
 }
 
-.col_h {
+.col_h-2 {
     background-color: red;
     height: 20px;
-    width: 100%;
+    width: calc(100%/12*2);
     margin: 1rem 0;
+    border: 2px solid black;
 }
-
+.col_h-8 {
+    background-color: red;
+    height: 20px;
+    width: calc(100%/12*8);
+    margin: 1rem 0;
+    border: 2px solid black;
+}
 /* end region*/
+
 
 /* region hero */
 .hero {
@@ -38,27 +46,55 @@ header {
 
 .image_hero {
     background-color: rgba(164, 163, 163, 0.8);
-    width: 50%;
-    height: 00px;
+    width: 60%;
+    height: 200px;
     margin: auto;
     
 }
-
 /* end region */
 
-/* region main s*/
+
+/* region main */
 .container {
     background-color: rgba(255, 166, 0, 0.381);
-    width: 50%;
-    height: 200px;
+    width: 80%;
+    height: 300px;
     margin: 2rem auto;
     padding: 2rem 0;
 }
  .row_sect {
     background-color: rgba(128, 128, 128, 0.642);
     height: 100%;
+    padding: 2rem 0 1rem;
  }
 
+.col_sect-4 {
+    background-color: aquamarine;
+    width: calc(100%/12*4);
+    height: 100%;
+    padding: 1.5rem 1rem 1rem;
+}
+
+.col_sect-8 {
+    background-color: aquamarine;
+    width: calc(100%/12*8);
+    height: 100%;
+    padding: 1.5rem 1rem 1rem;
+}
+
+
+.card {
+    background-color: rgba(101, 176, 223, 0.873);
+    height: 100%;
+
+}
+ /* end region */
+
+ /* region footer*/
+
+
+
+ /* end region */
 
 
 
@@ -71,9 +107,4 @@ header {
 
 .flexbox {
     display: flex;
-}
-
-.flex_grow:nth :nth-of-type(2) {
-    flex-grow: 3;
-    
 }
