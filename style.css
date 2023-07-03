@@ -5,11 +5,36 @@
 }
 
 header {
-    width: 80%;
-    background-color: rgba(128, 128, 128, 0.489);
+    height: 5rem;
+    background-color: bisque;
 }
 
 .container_header {
-    background-color: red;
-    height: 100px;
+    background-color: orange;
+    width: 80%;
+    max-width: 1170px;
+    margin: auto;
+}
+
+.col {
+    width: calc(100% / 3);
+    background-color: aquamarine;
+}
+
+
+
+
+
+
+
+
+
+
+.debug {
+    margin: 1rem auto;
+}
+
+.flexbox {
+    display: flex;
+    justify-content: space-between;
 }
